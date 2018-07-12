@@ -36,7 +36,7 @@ The attention points we focus on currently are reporting-related.
 
   Because they function as identifiers, the _filenames should be descriptive,
   but concise_ (at most 30 characters). They should only contain alphanumeric
-  ASCII characters, underscores ` `, hyphens `-`, and plusses `+`. Normal words
+  ASCII characters, underscores `_`, hyphens `-`, and plusses `+`. Normal words
   should be lower case, but acronyms and the like can be uppercase.
 
 * The `labels.yaml` file contains a structured description of all the
