@@ -1,6 +1,6 @@
 summary: There are no walls of text
 labels: [writing, style]
-description: >
+description: |
   Paragraphs should not be overly long, as this makes it hard to follow the
   argument. There are no hard rules, but paragraphs more than six sentences,
   say, should be _evaluated_ for splitting. (Each of these sentences should of

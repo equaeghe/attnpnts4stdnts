@@ -1,6 +1,6 @@
 summary: Only significant digits of numbers given
 labels: [number]
-description: >
+description: |
   The number of digits shown in a text should not be arbitrary. For example, it
   should not be based on the number of digits output from a computation tool.
   Only the significant digits should be shown. If the number of significant

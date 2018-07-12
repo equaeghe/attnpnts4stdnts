@@ -1,6 +1,6 @@
-summary: Multiplication symbols use consistent; asterisk (*) not abused
+summary: Multiplication symbols use consistent; asterisk ($*$) not abused
 labels: [math, notation]
-description: >
+description: |
   There is a difference between symbols used in programming languages and those
   in written texts. The former are essentially constrained by the keys available
   on keyboards, the latter are not. This is especially relevant for

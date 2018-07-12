@@ -1,6 +1,6 @@
 summary: Functions and values are not confused
 labels: [math, notation]
-description: >
+description: |
   Functions and values should not be confused.
   Their distinction should be clear from the notation used.
 

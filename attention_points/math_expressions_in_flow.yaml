@@ -1,6 +1,6 @@
 summary: Mathematical expressions are part of flowing text
 labels: [math, writing, style]
-description: >
+description: |
   Mathematical expressions should be part of the flowing text, even if the
   expression is displayed and not in-line. This means in particular that
   punctuation rules must be followed. So never end a sentence before an

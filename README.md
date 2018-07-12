@@ -13,25 +13,26 @@ The attention points we focus on currently are reporting-related.
   ```yaml
   summary: Required summary is formulated as a checklist item
   labels: [somelabel, rootlabel/sublabel]  # at least one label must be present
-  description: >
+  description: |
     The required description of the attention point. This can contain one or two
     paragraphs and should include examples if possible. Also
     [links](https://en.wikipedia.org/wiki/Link) and references can be included.
 
-    Currently, the convention is to use [Markdown] for the description, with
-    [LaTeX] notation for math. (In the way done by [pandoc].) This should make
-    it possible to generate html, LaTeX, and even docx output.
+    Currently, the convention is to use [Markdown][uid.md] for the description,
+    with [LaTeX][uid.LaTeX] notation for math. (In the way done by
+    [pandoc][uid.pandoc].) This should make it possible to generate html, LaTeX,
+    and even docx output.
 
     Further references:
 
-    - [Wikipedia definition of ‘Reference’][ref]
-    - [The (not so) short introduction to LaTeX][lshort]
+    - [Wikipedia definition of ‘Reference’][uid.ref]
+    - [The (not so) short introduction to LaTeX][uid.lshort]
 
-    [Markdown]: http://commonmark.org/help/
-    [LaTeX]: https://en.wikibooks.org/wiki/LaTeX/Mathematics
-    [pandoc]: https://pandoc.org/MANUAL.html#math
-    [ref]: https://en.wikipedia.org/wiki/Reference
-    [lshort]: http://mirrors.ctan.org/info/lshort/english/lshort.pdf
+    [uid.Markdown]: http://commonmark.org/help/
+    [uid.LaTeX]: https://en.wikibooks.org/wiki/LaTeX/Mathematics
+    [uid.pandoc]: https://pandoc.org/MANUAL.html#math
+    [uid.ref]: https://en.wikipedia.org/wiki/Reference
+    [uid.lshort]: http://mirrors.ctan.org/info/lshort/english/lshort.pdf
   ```
 
   Because they function as identifiers, the _filenames should be descriptive,
