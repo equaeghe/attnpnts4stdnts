@@ -1,0 +1,9 @@
+summary: Symbols are introduced on first use and reintroduced as needed
+labels: [math, writing, style]
+description: >
+  Symbols should always be introduced on first usage. It is not enough to put
+  them in a list of symbols. Actually, it is good practice to re-introduce a
+  symbol briefly (e.g., by referring back to the first time it was introduced)
+  when it has not been used for a while or when one cannot assume the original
+  introduction is fresh in the mind of the reader (e.g., in a new chapter that
+  is read later or that can be read separately).

@@ -1,0 +1,9 @@
+summary: Functions and values are not confused
+labels: [math, notation]
+description: >
+  Functions and values should not be confused.
+  Their distinction should be clear from the notation used.
+
+  For example: the airfoil chord length $c$ is a function of the radial position
+  $r$ on the blade; crudely, $c(r)\propto1/r$. (Only if there is only one, fixed
+  radial position considered can one write $c\propto1/r$.)

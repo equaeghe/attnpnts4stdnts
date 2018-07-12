@@ -1,0 +1,34 @@
+summary: Font style for mathematical symbols follows the standard
+labels: [math, notation]
+description: >
+  The typeface for mathematical symbols are [standardized] to avoid confusion
+  with, e.g., symbols for units, and to distinguish variables and constants.
+  Often, these conventions are not followed. Sometimes the conventions are
+  followed in equations, but not in the text, creating a situation where two
+  typographically distinct symbols are used for the same thing. Basically, the
+  standard tells us to write
+
+  * variables and quantities in italic (or at least slanted), and
+  * mathematical constants, units, and descriptive terms in roman (or at least
+    upright).
+
+  Some examples:
+
+  * The value of the mathematical constant $\mathrm{e}$ is approximately $2.72$.
+  * The established value for the electron charge $e$—a physical constant but
+    mathematical variable—is approximately $1.6\cdot10^{-19}~\textrm{C}$.
+  * The function generically denoted by $f$ is here defined for all real-values
+    $x$ by $f(x)=x^2+1$.
+  * We will need the coefficients $c_{\text{dry}}$ and $c_{\text{wet}}$.
+  * Is the sum $\sum_{k=1}^\infty\frac{1}{k}$ well-defined?
+
+  Useful links:
+
+  * [NIST Guide to the SI, Chapter 10: More on Printing and Using Symbols and
+    Numbers in Scientific and Technical Documents][NIST]
+  * [The LaTeX _isomath_ package][isomath]
+    (normally already included in a standard installation)
+
+  [standardized]: https://en.wikipedia.org/wiki/ISO_31-0#Symbols_for_quantities
+  [NIST]: https://www.nist.gov/pml/nist-guide-si-chapter-10-more-printing-and-using-symbols-and-numbers-scientific-and-technical#102
+  [isomath]: https://ctan.org/pkg/isomath

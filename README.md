@@ -11,23 +11,27 @@ The attention points we focus on currently are reporting-related.
   _attention point_ in a structured way:
 
   ```yaml
-  summary: >  # this must always be present
-    Always write a short summary of the attention point,
-    ideally worded as a commandment
+  summary: Required summary is formulated as a checklist item
+  labels: [somelabel, rootlabel/sublabel]  # at least one label must be present
+  description: >
+    The required description of the attention point. This can contain one or two
+    paragraphs and should include examples if possible. Also
+    [links](https://en.wikipedia.org/wiki/Link) and references can be included.
 
-  description: >  # this must always be present
-    The description of the attention point. This can contain one or two
-    paragraphs and should include examples if possible. URL references should go
-    below.
+    Currently, the convention is to use [Markdown] for the description, with
+    [LaTeX] notation for math. (In the way done by [pandoc].) This should make
+    it possible to generate html, LaTeX, and even docx output.
 
-    No convention about description markup has yet been fixed, but anything else
-    than Markdown or LaTeX is unlikely to be adopted.
+    Further references:
 
-  references:  # this can, but should not be omitted
-    - https://en.wikipedia.org/wiki/Reference
-    - http://mirrors.ctan.org/info/lshort/english/lshort.pdf
+    - [Wikipedia definition of ‘Reference’][ref]
+    - [The (not so) short introduction to LaTeX][lshort]
 
-  labels: [a, list, of, labels]  # at least one label must be present
+    [Markdown]: http://commonmark.org/help/
+    [LaTeX]: https://en.wikibooks.org/wiki/LaTeX/Mathematics
+    [pandoc]: https://pandoc.org/MANUAL.html#math
+    [ref]: https://en.wikipedia.org/wiki/Reference
+    [lshort]: http://mirrors.ctan.org/info/lshort/english/lshort.pdf
   ```
 
   Because they function as identifiers, the _filenames should be descriptive,

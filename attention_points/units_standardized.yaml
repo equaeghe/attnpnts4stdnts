@@ -1,0 +1,26 @@
+summary: Unit notation follows the standard (upright, preceded by space)
+labels: [notation]
+description: >
+  The notation for units is [standardized] as well; they should be written in
+  roman (or at least upright). The positioning of units is also standardized;
+  they should be separated from the value by a single—non-breaking—space (apart
+  from a few [exceptions]).
+
+  Some examples:
+
+  * The temperature of $-273.15~\mathrm{K}$ is equal to $0~°\mathrm{C}$.
+  * Delft lies as a latitude of $52°\,00′\,24″$ North and a longitude of
+    $4°\,21′\,20″$ East.
+
+  Useful links:
+
+  * [NIST Guide to the SI, Chapter 6: Rules and Style Conventions for Printing
+    and Using Units][NIST]
+  * [The LaTeX <i>siunitx</i> package][siunitx]
+    (normally already included in a standard installation; I consider this a
+    must-use package)
+
+  [standardized]: https://en.wikipedia.org/wiki/ISO_31-0#Names_and_symbols_for_units
+  [exceptions]: https://en.wikipedia.org/wiki/ISO_31-0#Expressions
+  [NIST]: https://www.nist.gov/pml/nist-guide-si-chapter-6-rules-and-style-conventions-printing-and-using-units
+  [siunitx]: https://ctan.org/pkg/siunitx

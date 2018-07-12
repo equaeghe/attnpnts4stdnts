@@ -1,0 +1,19 @@
+summary: Multiplication symbols use consistent; asterisk (*) not abused
+labels: [math, notation]
+description: >
+  There is a difference between symbols used in programming languages and those
+  in written texts. The former are essentially constrained by the keys available
+  on keyboards, the latter are not. This is especially relevant for
+  multiplication symbols:
+
+  * standard multiplication does not always need to be indicated using a symbol,
+    juxtaposition may be enough ($ab$);
+  * $\cdot$ can be used for the scalar product (inner product) of vectors
+    ($\vec{u}\cdot\vec{v}$) or for standard multiplication ($1.6\cdot10^6$);
+  * $\times$ is used for multiplication (Cartesian product) of sets
+    ($\mathcal{C}\times\mathcal{D}$), (outer) vector product
+    ($\vec{u}\times\vec{v}$), or standard multiplication ($1.6\times10^6$);
+  * $*$ is used for convolution of functions ($f*g$) and never for standard
+    multiplication.
+
+  In any case, usage must be consistent.

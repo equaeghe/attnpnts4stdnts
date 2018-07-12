@@ -1,0 +1,8 @@
+summary: Only significant digits of numbers given
+labels: [number]
+description: >
+  The number of digits shown in a text should not be arbitrary. For example, it
+  should not be based on the number of digits output from a computation tool.
+  Only the significant digits should be shown. If the number of significant
+  digits is difficult to determine: showing fewer is better than showing more
+  and any significant digit (certainly beyond the second) should be justified.

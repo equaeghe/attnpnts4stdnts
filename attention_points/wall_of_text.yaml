@@ -1,0 +1,13 @@
+summary: There are no walls of text
+labels: [writing, style]
+description: >
+  Paragraphs should not be overly long, as this makes it hard to follow the
+  argument. There are no hard rules, but paragraphs more than six sentences,
+  say, should be _evaluated_ for splitting. (Each of these sentences should of
+  course also be of reasonable length; beware the ‘run-on sentence’.)
+
+  Apart from splitting them, there are other ways to fix overly long paragraphs,
+  such as
+
+  * using ordered or un-ordered lists, or
+  * presenting the content in another way, e.g., using tables or figures.
